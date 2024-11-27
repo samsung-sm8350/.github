@@ -76,6 +76,15 @@ To build LineageOS for Samsung devices powered by the SM8350 SoC, such as the Sa
     repo sync
     ```
 
+## Setup ccache (Optional)
+1. **Paste following commands for basic setup:**
+    ```sh
+    export USE_CCACHE=1
+    export CCACHE_EXEC=/usr/bin/ccache
+    ccache -M 50G
+    ccache -o compression=true
+    ```
+
 ## Building LineageOS
 
 1. **Set Up the Build Environment:**
