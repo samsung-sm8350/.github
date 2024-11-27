@@ -68,7 +68,7 @@ To build LineageOS for Samsung devices powered by the SM8350 SoC, such as the Sa
     #### Method 2:
     Fetch Roomservice Manifest:
     ```sh
-    curl -o .repo/local_manifests/roomservice.xml https://raw.githubusercontent.com/samsung-sm8350/.github/refs/heads/main/roomservice.xml
+    curl -o .repo/local_manifests/roomservice.xml https://raw.githubusercontent.com/samsung-sm8350/.github/refs/heads/main/manifests/roomservice.xml
     ```
 
 4. **Sync the Source Code:**
